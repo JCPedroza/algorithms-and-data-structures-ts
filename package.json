@@ -4,6 +4,7 @@
   "description": "Algorithms and data structures implemented in TypeScript.",
   "main": "index.js",
   "scripts": {
+    "build": "tsc .",
     "test": "jest --onlyChanged",
     "test-unit": "jest .",
     "test-unit-ci": "jest . --ci",
