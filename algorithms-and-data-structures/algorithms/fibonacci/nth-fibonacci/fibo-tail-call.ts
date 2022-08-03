@@ -12,7 +12,7 @@ const fibo = (index: number): number => {
   return loop(0, 1, index)
 }
 
-export const algorithm = {
+const algorithm = {
   fun: fibo,
   id: 'tail-call recursion'
 }

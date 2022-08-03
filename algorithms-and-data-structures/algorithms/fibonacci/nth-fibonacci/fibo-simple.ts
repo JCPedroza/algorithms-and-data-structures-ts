@@ -6,7 +6,7 @@
 const fibo = (index: number): number =>
   index < 2 ? index : fibo(index - 1) + fibo(index - 2)
 
-export const algorithm = {
+const algorithm = {
   fun: fibo,
   id: 'simple recursion'
 }
