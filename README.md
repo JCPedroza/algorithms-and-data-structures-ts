@@ -8,13 +8,34 @@
 
 Algorithms and data structures implemented in TypeScript.
 
+## Installation
+
+```bash
+git clone https://github.com/JCPedroza/algorithms-and-data-structures-ts.git
+cd algorithms-and-data-structures
+npm install
+```
+
 ## Usage
 
 ```bash
-npm test           # Run unit tests (ts-jest)
-npm run test-style # Run style tests (ts-standard)
+npm run test-all   # Run all tests (ts-jest, ts-standard)
 npm run build      # Transpile to JavaScript
 ```
+
+## Contributing
+
+Bug reports and pull requests are welcome on GitHub at https://github.com/JCpedroza/algorithms_and_data_structures-ts.
+This project is intended to be a safe, welcoming space for collaboration, and
+contributors are expected to adhere to the [code of conduct](https://github.com/[USERNAME]/algorithms_and_data_structures/blob/master/CODE_OF_CONDUCT.md).
+
+## License
+
+The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+
+## Code of Conduct
+
+Everyone interacting in the AlgorithmsAndDataStructures project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/algorithms_and_data_structures/blob/master/CODE_OF_CONDUCT.md).
 
 ---
 
