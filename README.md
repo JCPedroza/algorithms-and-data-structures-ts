@@ -5,7 +5,8 @@
 [![linting][4]][5]
 [![license MIT][6]][7]
 [![code style ts-standard][8]][9]
-[![dependabot status][10]][11]
+[![test ts-jest][10]][11]
+[![dependabot status][12]][13]
 
 Algorithms and data structures implemented in TypeScript.
 
@@ -51,5 +52,7 @@ Everyone interacting in the AlgorithmsAndDataStructures project's codebases, iss
 [7]: https://en.wikipedia.org/wiki/MIT_License
 [8]: https://badgen.net/badge/code%20style/ts-standard/blue?icon=typescript
 [9]: https://github.com/standard/ts-standard
-[10]: https://badgen.net/github/dependabot/JCPedroza/algorithms-and-data-structures-ts?icon=dependabot
-[11]: https://github.com/dependabot/dependabot-core
+[10]: https://img.shields.io/badge/test-ts--jest-blue
+[11]: https://github.com/kulshekhar/ts-jest
+[12]: https://badgen.net/github/dependabot/JCPedroza/algorithms-and-data-structures-ts?icon=dependabot
+[13]: https://github.com/dependabot/dependabot-core
