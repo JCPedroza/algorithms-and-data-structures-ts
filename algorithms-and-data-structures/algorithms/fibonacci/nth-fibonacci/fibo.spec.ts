@@ -1,9 +1,15 @@
 import fiboSimple from './fibo-simple'
 import fiboTailCall from './fibo-tail-call'
+import fiboForLoop from './fibo-for-loop'
+import fiboMemoArray from './fibo-memo-array'
+import fiboMemoArrayNull from './fibo-memo-array-null'
 
 const testSubjects = [
   fiboSimple,
-  fiboTailCall
+  fiboTailCall,
+  fiboForLoop,
+  fiboMemoArray,
+  fiboMemoArrayNull
 ]
 
 for (const { fun, id } of testSubjects) {
