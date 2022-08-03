@@ -1,13 +1,11 @@
 # TypeScript Algorithms and Data Structures
 
-[![linux build][0]][1]
-[![windows build][2]][3]
-[![linux tests][4]][5]
-[![windows tests][6]][7]
-[![linting][8]][9]
-[![license MIT][10]][11]
-[![code style ts-standard][12]][13]
-[![dependabot status][14]][15]
+[![linux build & tests][0]][1]
+[![windows build & tests][2]][3]
+[![linting][4]][5]
+[![license MIT][6]][7]
+[![code style ts-standard][8]][9]
+[![dependabot status][10]][11]
 
 Algorithms and data structures implemented in TypeScript.
 
@@ -42,20 +40,16 @@ Everyone interacting in the AlgorithmsAndDataStructures project's codebases, iss
 
 ---
 
-[0]: https://github.com/JCPedroza/algorithms-and-data-structures-ts/actions/workflows/linux.build.node.js.yml/badge.svg
-[1]: https://github.com/JCPedroza/algorithms-and-data-structures-ts/actions/workflows/linux.build.node.js.yml
-[2]: https://github.com/JCPedroza/algorithms-and-data-structures-ts/actions/workflows/windows.build.node.js.yml/badge.svg
-[3]: https://github.com/JCPedroza/algorithms-and-data-structures-ts/actions/workflows/windows.build.node.js.yml
-[4]: https://github.com/JCPedroza/algorithms-and-data-structures-ts/actions/workflows/linux.test.node.js.yml/badge.svg
-[5]: https://github.com/JCPedroza/algorithms-and-data-structures-ts/actions/workflows/linux.test.node.js.yml
-[6]: https://github.com/JCPedroza/algorithms-and-data-structures-ts/actions/workflows/windows.test.node.js.yml/badge.svg
-[7]: https://github.com/JCPedroza/algorithms-and-data-structures-ts/actions/workflows/windows.test.node.js.yml
-[8]: https://github.com/JCPedroza/algorithms-and-data-structures-ts/actions/workflows/linux.style.node.yml/badge.svg
-[9]: https://github.com/JCPedroza/algorithms-and-data-structures-ts/actions/workflows/linux.style.node.yml
+[0]: https://github.com/JCPedroza/algorithms-and-data-structures-ts/actions/workflows/linux.yml/badge.svg
+[1]: https://github.com/JCPedroza/algorithms-and-data-structures-ts/actions/workflows/linux.yml
+[2]: https://github.com/JCPedroza/algorithms-and-data-structures-ts/actions/workflows/windows.yml/badge.svg
+[3]: https://github.com/JCPedroza/algorithms-and-data-structures-ts/actions/workflows/windows.yml
+[4]: https://github.com/JCPedroza/algorithms-and-data-structures-ts/actions/workflows/lint.yml/badge.svg
+[5]: https://github.com/JCPedroza/algorithms-and-data-structures-ts/actions/workflows/lint.yml
 
-[10]: https://badgen.net/github/license/JCPedroza/algorithms-and-data-structures-ts
-[11]: https://en.wikipedia.org/wiki/MIT_License
-[12]: https://badgen.net/badge/code%20style/ts-standard/blue?icon=typescript
-[13]: https://github.com/standard/ts-standard
-[14]: https://badgen.net/github/dependabot/JCPedroza/algorithms-and-data-structures-ts?icon=dependabot
-[15]: https://github.com/dependabot/dependabot-core
+[6]: https://badgen.net/github/license/JCPedroza/algorithms-and-data-structures-ts
+[7]: https://en.wikipedia.org/wiki/MIT_License
+[8]: https://badgen.net/badge/code%20style/ts-standard/blue?icon=typescript
+[9]: https://github.com/standard/ts-standard
+[10]: https://badgen.net/github/dependabot/JCPedroza/algorithms-and-data-structures-ts?icon=dependabot
+[11]: https://github.com/dependabot/dependabot-core
