@@ -2,6 +2,8 @@
 
 [![linux build][0]][1]
 [![windows build][2]][3]
+[![license MIT][4]][5]
+[![code style][6]][7]
 
 Algorithms and data structures implemented in TypeScript.
 
@@ -19,3 +21,7 @@ npm run build      # Transpile to JavaScript
 [1]: https://github.com/JCPedroza/algorithms-and-data-structures-ts/actions/workflows/linux.node.js.yml
 [2]: https://github.com/JCPedroza/algorithms-and-data-structures-ts/actions/workflows/windows.node.js.yml/badge.svg
 [3]: https://github.com/JCPedroza/algorithms-and-data-structures-ts/actions/workflows/windows.node.js.yml
+[4]: https://badgen.net/github/license/JCPedroza/algorithms-and-data-structures-ts
+[5]: https://en.wikipedia.org/wiki/MIT_License
+[6]: https://badgen.net/badge/code%20style/ts-standard/blue?icon=typescript
+[7]: https://github.com/standard/ts-standard
