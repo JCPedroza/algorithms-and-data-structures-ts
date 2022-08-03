@@ -1,0 +1,41 @@
+{
+  "name": "algorithms-ts",
+  "version": "0.0.1",
+  "description": "Algorithms and data structures implemented in TypeScript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --onlyChanged",
+    "test-unit": "jest .",
+    "test-unit-ci": "jest . --ci",
+    "test-unit-changed": "npm test",
+    "test-style": "ts-standard .",
+    "test-all": "concurrently --raw \"npm run test-style\" \"npm run test-unit\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JCPedroza/algorithms-and-data-structures-ts.git"
+  },
+  "keywords": [
+    "algorithm",
+    "data",
+    "structure",
+    "typescript"
+  ],
+  "author": "JCPedroza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JCPedroza/algorithms-and-data-structures-ts/issues"
+  },
+  "homepage": "https://github.com/JCPedroza/algorithms-and-data-structures-ts#readme",
+  "devDependencies": {
+    "@types/jest": "^28.1.6",
+    "cloc": "^2.10.0",
+    "concurrently": "^7.3.0",
+    "husky": "^8.0.1",
+    "jest": "^28.1.3",
+    "license-checker": "^25.0.1",
+    "ts-jest": "^28.0.7",
+    "ts-standard": "^11.0.0",
+    "typescript": "^4.7.4"
+  }
+}
