@@ -6,7 +6,7 @@ const testSubjects = [
   fiboTailCall
 ]
 
-for (const {fun, id} of testSubjects) {
+for (const { fun, id } of testSubjects) {
   describe(`Fibonacci algorithm "${id}"`, () => {
     it('computes the nth Fibonacci number', () => {
       expect(fun(0)).toBe(0)
