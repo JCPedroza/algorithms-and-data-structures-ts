@@ -4,12 +4,13 @@
   "description": "Algorithms and data structures implemented in TypeScript.",
   "main": "index.js",
   "scripts": {
-    "build": "tsc .",
+    "build": "tsc --project tsconfig.json",
     "test": "jest --onlyChanged",
     "test-unit": "jest .",
     "test-unit-ci": "jest . --ci",
     "test-unit-changed": "npm test",
     "test-style": "ts-standard .",
+    "test-node-workflow": "concurrently --raw \"npm run test-style\" \"npm run test-unit-ci\"",
     "test-all": "concurrently --raw \"npm run test-style\" \"npm run test-unit\""
   },
   "repository": {
