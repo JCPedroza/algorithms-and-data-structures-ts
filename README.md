@@ -27,4 +27,4 @@ npm run build      # Transpile to JavaScript
 [6]: https://badgen.net/badge/code%20style/ts-standard/blue?icon=typescript
 [7]: https://github.com/standard/ts-standard
 [8]: https://badgen.net/github/dependabot/JCPedroza/algorithms-and-data-structures-ts?icon=dependabot
-[9]: https://dependabot.com/
+[9]: https://github.com/dependabot/dependabot-core
