@@ -21,7 +21,7 @@ function fibo (index: number): number
 
 ## Examples
 
-```javascript
+```typescript
 fibo(-1) === 0
 fibo(0) === 0
 fibo(1) === 1
