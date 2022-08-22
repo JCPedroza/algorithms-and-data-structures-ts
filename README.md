@@ -12,8 +12,8 @@
 This repository contains
 
 - Implementations of algorithms and data structures
-- Solutions to problems and prompts (like the ones at Project Euler)
-- Solutions to some classic interview questions
+- Solutions for problems, prompts, and challenges
+- Solutions for some classic interview questions
 
 ## Installation
 
