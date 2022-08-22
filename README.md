@@ -1,13 +1,13 @@
 # TypeScript Algorithms and Data Structures
 
 [![license MIT][6]][7]
-[![code style ts-standard][8]][9]
+[![style ts-standard][8]][9]
 [![test ts-jest][10]][11]
+[![dependabot status][12]][13]
 
 [![linux build & tests][0]][1]
 [![windows build & tests][2]][3]
 [![linting][4]][5]
-[![dependabot status][12]][13]
 
 This repository contains
 
@@ -64,15 +64,15 @@ This repository is available as open source under the terms of the
 [3]: https://github.com/JCPedroza/algorithms-and-data-structures-ts/actions/workflows/windows.yml
 [4]: https://github.com/JCPedroza/algorithms-and-data-structures-ts/actions/workflows/lint.yml/badge.svg
 [5]: https://github.com/JCPedroza/algorithms-and-data-structures-ts/actions/workflows/lint.yml
-
 [6]: https://badgen.net/github/license/JCPedroza/algorithms-and-data-structures-ts
 [7]: https://opensource.org/licenses/MIT
-[8]: https://badgen.net/badge/code%20style/ts-standard/blue?icon=typescript
+[8]: https://badgen.net/badge/style/ts-standard/blue?icon=typescript
 [9]: https://github.com/standard/ts-standard
+[10]: https://badgen.net/badge/test/ts-jest/blue?icon=typescript
 [10]: https://img.shields.io/badge/test-ts--jest-blue
 [11]: https://github.com/kulshekhar/ts-jest
 [12]: https://badgen.net/github/dependabot/JCPedroza/algorithms-and-data-structures-ts?icon=dependabot
-[13]: https://github.com/dependabot/dependabot-core
+[13]: https://github.com/JCPedroza/algorithms-and-data-structures-ts/blob/main/.github/dependabot.yml
 
 [30]: https://github.com/JCPedroza/algorithms-and-data-structures-ts/blob/main/CODE_OF_CONDUCT.md
 [31]: https://github.com/JCPedroza/algorithms-and-data-structures-ts/blob/main/CONTRIBUTING.md
