@@ -18,7 +18,7 @@ dependencies.
 
 ```bash
 git clone https://github.com/JCPedroza/algorithms-and-data-structures-ts.git
-cd algorithms-and-data-structures
+cd algorithms-and-data-structures-ts
 npm install
 ```
 
