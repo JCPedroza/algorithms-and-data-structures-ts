@@ -1,4 +1,3 @@
-import QueueADT from './queue.interface'
 import ArrayQueue from './queue-array'
 
 const testSubjects = [
