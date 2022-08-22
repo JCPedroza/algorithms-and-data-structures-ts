@@ -10,8 +10,7 @@
 [![windows build & tests][2]][3]
 [![macintosh build & tests][14]][15]
 
-
-This repository contains
+Algorithms and data structures implemented in TypeScript. Here you'll find:
 
 - Implementations of algorithms and data structures
 - Solutions for problems, prompts, and challenges
@@ -57,11 +56,10 @@ You can see the full contribution guidelines, workflows, and examples in the
 ## License
 
 This repository is available as open source under the terms of the
-[MIT License][7].
+[MIT License][7], that you can see in the LICENSE.md document of 
+this repository.
 
 ## Similar Resources
-
-You can find similar repositories for other languages in the following links:
 
 - [Racket][104]
 - [Python][101]
