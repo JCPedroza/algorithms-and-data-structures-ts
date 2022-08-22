@@ -9,29 +9,38 @@ resources.
 
 #### Examples
 
-Examples in the README.md file must be written in TypeScript, and must be in one of
-this two forms:
+Include at least one example in one or multiple of these forms:
+  - Natural language
+  - Expression that evaluates to true
+  - Jest expect notation
 
-- Expressions that evaluate to true
-- Jest expect notation
+Two to five examples should be ok, depending on the case. Examples should complement
+the explanations. Use the examples to illustrate edge cases, and basic expected inputs
+and outputs.
 
-Using expressions that evaluate to true looks like this:
+##### Natural Language
 
-```typescript
-fibo(-1) === 0
-fibo(0) === 0
-fibo(1) === 1
-fibo(2) === 1
-fibo(3) === 2
-// etc ...
+```
+double(-1) is 1
+double(0) is 0
+double(1) is 1
+double(2) is 4
 ```
 
-And using the jest expect notation looks like this:
+##### Expressions that Evaluate to True.
 
 ```typescript
-expect(fizzBuzz(10, 18))
-  .toEqual(['buzz', '11', 'fizz', '13', '14', 'fizzbuzz', '16', '17'])
+double(-1) === 1
+double(0) === 0
+double(1) === 1
+double(2) === 4
+```
 
-expect(fizzBuzz(-3, 3))
-  .toEqual(['fizz', '-2', '-1', 'fizzbuzz', '1', '2', 'fizzbuzz'])
+##### Jest Expect Notation
+
+```typescript
+expect(fun(-1)).tobe(1)
+expect(fun(0)).tobe(0)
+expect(fun(1)).tobe(1)
+expect(fun(2)).tobe(2)
 ```
