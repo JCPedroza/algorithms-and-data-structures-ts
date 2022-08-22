@@ -28,9 +28,14 @@ npm install
 
 ## Usage
 
+### Scripts
+
 ```bash
-npm run test-all   # Run all tests (ts-jest, ts-standard)
-npm run build      # Transpile to JavaScript
+npm test          # Run changed unit tests
+npm run test-unit # Run all unit tests
+npm run test-all  # Run all tests (unit and lint)
+npm run build     # Transpile to JavaScript
+npm run           # Show all scripts
 ```
 
 ## Contributing
