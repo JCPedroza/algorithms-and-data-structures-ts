@@ -9,7 +9,11 @@
 [![linting][4]][5]
 [![dependabot status][12]][13]
 
-Algorithms and data structures implemented in TypeScript.
+This repository contains
+
+- Implementations of algorithms and data structures
+- Solutions to problems and prompts (like the ones at Project Euler)
+- Solutions to some classic interview questions
 
 ## Installation
 
@@ -45,7 +49,8 @@ This repository is available as open source under the terms of the
 
 ## Code of Conduct
 
-Everyone interacting in the AlgorithmsAndDataStructures project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the
+Everyone interacting in the AlgorithmsAndDataStructures project's codebases,
+issue trackers, chat rooms and mailing lists is expected to follow the
 [code of conduct][30].
 
 ---
