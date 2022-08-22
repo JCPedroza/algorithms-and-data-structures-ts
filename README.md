@@ -56,7 +56,7 @@ You can see the full contribution guidelines, workflows, and examples in the
 ## License
 
 This repository is available as open source under the terms of the
-[MIT License][7], that you can see in the LICENSE.md document of 
+[MIT License][7], that you can see in the LICENSE.md document of
 this repository.
 
 ## Similar Resources
