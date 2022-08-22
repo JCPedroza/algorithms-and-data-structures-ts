@@ -10,13 +10,24 @@ number 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55
 
 ## Write the Fibonacci Number Algorithm
 
-Write a function that computes the Fibonacci number at a given position (zero-based
-index). Negative indexes must return zero.
+Write a function, `fibo`, that computes the Fibonacci number at a given position
+`index` (zero-based index). Negative indexes must return zero.
 
 ## Function Signature
 
 ```typescript
 function fibo (index: number): number
+```
+
+## Examples
+
+```javascript
+fibo(-1) === 0
+fibo(0) === 0
+fibo(1) === 1
+fibo(2) === 1
+fibo(3) === 2
+// etc ...
 ```
 
 ## Resources
