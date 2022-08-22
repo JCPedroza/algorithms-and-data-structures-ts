@@ -19,4 +19,5 @@
         "**/node_modules": true
     },
     "files.trimTrailingWhitespace": true,
+    "standard.engine": "ts-standard"
 }
