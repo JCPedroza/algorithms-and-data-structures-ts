@@ -49,7 +49,8 @@ This project is intended to be a safe, welcoming space for collaboration. Everyo
 interacting in this project's codebases, issue trackers, chat rooms and mailing lists
 is expected to follow the [code of conduct][30].
 
-You can see the full contribution guidelines [here][31].
+You can see the full contribution guidelines, workflows, and examples in the
+`CONTRIBUTING.md` document of this repository, or [here online][31].
 
 ## License
 
