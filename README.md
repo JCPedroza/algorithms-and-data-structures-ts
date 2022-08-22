@@ -39,7 +39,7 @@ contributors are expected to adhere to the
 ## License
 
 This repository is available as open source under the terms of the
-[MIT License](https://opensource.org/licenses/MIT).
+[MIT License][7].
 
 ## Code of Conduct
 
@@ -56,7 +56,7 @@ Everyone interacting in the AlgorithmsAndDataStructures project's codebases, iss
 [5]: https://github.com/JCPedroza/algorithms-and-data-structures-ts/actions/workflows/lint.yml
 
 [6]: https://badgen.net/github/license/JCPedroza/algorithms-and-data-structures-ts
-[7]: https://en.wikipedia.org/wiki/MIT_License
+[7]: https://opensource.org/licenses/MIT
 [8]: https://badgen.net/badge/code%20style/ts-standard/blue?icon=typescript
 [9]: https://github.com/standard/ts-standard
 [10]: https://img.shields.io/badge/test-ts--jest-blue
