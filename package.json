@@ -10,9 +10,12 @@
     "test-unit-ci": "jest . --ci",
     "test-unit-changed": "npm test",
     "test-style": "ts-standard .",
-    "test-node-workflow":
-      "concurrently --raw \"npm run test-style\" \"npm run test-unit-ci\"",
-    "test-all": "concurrently --raw \"npm run test-style\" \"npm run test-unit\""
+    "test-node-workflow": "concurrently --raw \"npm run test-style\" \"npm run test-unit-ci\"",
+    "test-all": "concurrently --raw \"npm run test-style\" \"npm run test-unit\"",
+    "fix-style": "ts-standard . --fix",
+    "pre-commit": "npm test",
+    "pre-push": "concurrently --raw \"npm run fix-style\" \"npm run test-unit\"",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
