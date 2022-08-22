@@ -7,6 +7,7 @@
 
 [![linux build & tests][0]][1]
 [![windows build & tests][2]][3]
+[![macintosh build & tests][14]][15]
 [![linting][4]][5]
 
 This repository contains
@@ -57,6 +58,15 @@ You can see the full contribution guidelines, workflows, and examples in the
 This repository is available as open source under the terms of the
 [MIT License][7].
 
+## Similar Resources
+
+You can find similar repositories for other languages in the following links:
+
+- [Racket][104]
+- [Python][101]
+- [SML][103]
+- [Other languages][100]
+
 ---
 
 [![total lines][90]][91] [![code size][92]][93] [![repo size][94]][95]
@@ -76,6 +86,8 @@ This repository is available as open source under the terms of the
 [11]: https://github.com/kulshekhar/ts-jest
 [12]: https://badgen.net/github/dependabot/JCPedroza/algorithms-and-data-structures-ts?icon=dependabot
 [13]: https://github.com/JCPedroza/algorithms-and-data-structures-ts/blob/main/.github/dependabot.yml
+[14]: https://github.com/JCPedroza/algorithms-and-data-structures-ts/actions/workflows/macintosh.yml/badge.svg
+[15]: https://github.com/JCPedroza/algorithms-and-data-structures-ts/actions/workflows/macintosh.yml
 
 [30]: https://github.com/JCPedroza/algorithms-and-data-structures-ts/blob/main/CODE_OF_CONDUCT.md
 [31]: https://github.com/JCPedroza/algorithms-and-data-structures-ts/blob/main/CONTRIBUTING.md
@@ -100,3 +112,8 @@ This repository is available as open source under the terms of the
 [93]: https://img.shields.io/github/languages/code-size/jcpedroza/algorithms-and-data-structures-ts
 [94]: https://img.shields.io/github/repo-size/jcpedroza/algorithms-and-data-structures-ts
 [95]: https://img.shields.io/github/repo-size/jcpedroza/algorithms-and-data-structures-ts
+
+[100]: https://github.com/JCPedroza/algorithms-and-data-structures
+[101]: https://github.com/JCPedroza/algorithms-and-data-structures-py
+[103]: https://github.com/JCPedroza/algorithms-and-data-structures-sml
+[104]: https://github.com/JCPedroza/algorithms-and-data-structures-rkt
