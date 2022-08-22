@@ -14,8 +14,10 @@ const mulsOf3Or5 = (limit: number): number => {
   // reach their limit.
   while (mul3 < limit) {
     if (mul5 >= limit) mul5 = 0 // Don't count multiples of 5 above the limit
-    if (mul5 % 3 !== 0) sum += mul5 // Don't count multiples of both 3 and 5 twice
+
     sum += mul3
+    if (mul5 % 3 !== 0) sum += mul5 // Don't count multiples of both 3 and 5 twice
+
     mul3 += 3
     if (mul5 > 0) mul5 += 5 // Increase if multiples of 5 haven't reached their limit
   }
