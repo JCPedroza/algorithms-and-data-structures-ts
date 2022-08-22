@@ -7,6 +7,7 @@
 
 [![linux build & tests][0]][1]
 [![windows build & tests][2]][3]
+[![macintosh build & tests][14]][15]
 [![linting][4]][5]
 
 This repository contains
@@ -68,6 +69,8 @@ You can find similar repositories for other languages in the following links:
 
 ---
 
+[![total lines][90]][91] [![code size][92]][93] [![repo size][94]][95]
+
 [0]: https://github.com/JCPedroza/algorithms-and-data-structures-ts/actions/workflows/linux.yml/badge.svg
 [1]: https://github.com/JCPedroza/algorithms-and-data-structures-ts/actions/workflows/linux.yml
 [2]: https://github.com/JCPedroza/algorithms-and-data-structures-ts/actions/workflows/windows.yml/badge.svg
@@ -83,6 +86,8 @@ You can find similar repositories for other languages in the following links:
 [11]: https://github.com/kulshekhar/ts-jest
 [12]: https://badgen.net/github/dependabot/JCPedroza/algorithms-and-data-structures-ts?icon=dependabot
 [13]: https://github.com/JCPedroza/algorithms-and-data-structures-ts/blob/main/.github/dependabot.yml
+[14]: https://github.com/JCPedroza/algorithms-and-data-structures-ts/actions/workflows/macintosh.yml/badge.svg
+[15]: https://github.com/JCPedroza/algorithms-and-data-structures-ts/actions/workflows/macintosh.yml
 
 [30]: https://github.com/JCPedroza/algorithms-and-data-structures-ts/blob/main/CODE_OF_CONDUCT.md
 [31]: https://github.com/JCPedroza/algorithms-and-data-structures-ts/blob/main/CONTRIBUTING.md
@@ -100,6 +105,13 @@ You can find similar repositories for other languages in the following links:
 [59]: https://github.com/JCPedroza/algorithms-and-data-structures-ts/pulls
 [60]: https://img.shields.io/github/issues-pr-closed-raw/JCPedroza/algorithms-and-data-structures-ts
 [61]: https://github.com/JCPedroza/algorithms-and-data-structures-ts/pulls
+
+[90]: https://img.shields.io/tokei/lines/github/jcpedroza/algorithms-and-data-structures-ts
+[91]: https://img.shields.io/tokei/lines/github/jcpedroza/algorithms-and-data-structures-ts
+[92]: https://img.shields.io/github/languages/code-size/jcpedroza/algorithms-and-data-structures-ts
+[93]: https://img.shields.io/github/languages/code-size/jcpedroza/algorithms-and-data-structures-ts
+[94]: https://img.shields.io/github/repo-size/jcpedroza/algorithms-and-data-structures-ts
+[95]: https://img.shields.io/github/repo-size/jcpedroza/algorithms-and-data-structures-ts
 
 [100]: https://github.com/JCPedroza/algorithms-and-data-structures
 [101]: https://github.com/JCPedroza/algorithms-and-data-structures-py
