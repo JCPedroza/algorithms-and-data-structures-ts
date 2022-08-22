@@ -1,8 +1,8 @@
-import isPalindromeWhileLoop from './is-palindrome-while-loop'
+import isPalindromeWhile from './is-palindrome-while'
 import isPalindromeMethods from './is-palindrome-methods'
 
 const testSubjects = [
-  isPalindromeWhileLoop,
+  isPalindromeWhile,
   isPalindromeMethods
 ]
 
