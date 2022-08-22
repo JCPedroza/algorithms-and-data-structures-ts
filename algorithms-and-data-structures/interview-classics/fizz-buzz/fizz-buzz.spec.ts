@@ -1,7 +1,9 @@
 import fizzBuzzForCon from './fizz-buzz-for-con'
+import fizzBuzzMapSet from './fizz-buzz-map-sel'
 
 const testSubjects = [
-  fizzBuzzForCon
+  fizzBuzzForCon,
+  fizzBuzzMapSet
 ]
 
 for (const {fun, id} of testSubjects) {
