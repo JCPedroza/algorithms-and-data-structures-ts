@@ -1,10 +1,12 @@
-import mulsOfTrialFor from './muls-of-3-or-5-trial-for'
+import mulsOfTrialFor from './muls-of-3-or-5-brute-for'
+import mulsOfSkipWhile from './muls-of-3-or-5-skip-while'
 
 const testSubjects = [
+  mulsOfSkipWhile,
   mulsOfTrialFor
 ]
 
-for (const {fun, id} of testSubjects) {
+for (const { fun, id } of testSubjects) {
   describe(`Project Euler 001 "multiples of 3 or 5" solution "${id}"`, () => {
     it('computes the sum below a given input', () => {
       expect(fun(-1)).toBe(0)
