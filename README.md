@@ -27,17 +27,20 @@ npm run build      # Transpile to JavaScript
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/JCpedroza/algorithms_and_data_structures-ts.
+Bug reports and pull requests are welcome on GitHub at https://github.com/JCpedroza/algorithms-and-data-structures-ts.
 This project is intended to be a safe, welcoming space for collaboration, and
-contributors are expected to adhere to the [code of conduct](https://github.com/[USERNAME]/algorithms_and_data_structures/blob/master/CODE_OF_CONDUCT.md).
+contributors are expected to adhere to the
+[code of conduct][30].
 
 ## License
 
-This repository is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+This repository is available as open source under the terms of the
+[MIT License](https://opensource.org/licenses/MIT).
 
 ## Code of Conduct
 
-Everyone interacting in the AlgorithmsAndDataStructures project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/algorithms_and_data_structures/blob/master/CODE_OF_CONDUCT.md).
+Everyone interacting in the AlgorithmsAndDataStructures project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the
+[code of conduct][30].
 
 ---
 
@@ -56,3 +59,5 @@ Everyone interacting in the AlgorithmsAndDataStructures project's codebases, iss
 [11]: https://github.com/kulshekhar/ts-jest
 [12]: https://badgen.net/github/dependabot/JCPedroza/algorithms-and-data-structures-ts?icon=dependabot
 [13]: https://github.com/dependabot/dependabot-core
+
+[30]: https://github.com/JCPedroza/algorithms-and-data-structures-ts/blob/master/CODE_OF_CONDUCT.md)
