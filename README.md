@@ -12,6 +12,9 @@ Algorithms and data structures implemented in TypeScript.
 
 ## Installation
 
+First clone or download the repository. Then use `npm install` to install all the
+dependencies.
+
 ```bash
 git clone https://github.com/JCPedroza/algorithms-and-data-structures-ts.git
 cd algorithms-and-data-structures
