@@ -8,23 +8,20 @@ by both 3 and 5 with the words "fizz buzz".
 ## Write the Fizz Buzz Function
 
 Write a function, `fizzBuzz`, that returns an array of strings of the given
-sequence where `start` is inclusive and `end` is exclusive, and where each number is
+sequence where `from` is inclusive and `to` is exclusive, and where each number is
 replaced according to the Fizz Buzz rules.
 
 ## Function Signature
 
 ```typescript
-function fizzBuzz (start: number, end: number): string[]
+function fizzBuzz (from: number, to: number): string[]
 ```
 
 ## Examples
 
 ```typescript
-expect(fizzBuzz(10, 18))
-  .toEqual(['buzz', '11', 'fizz', '13', '14', 'fizzbuzz', '16', '17'])
-
-expect(fizzBuzz(-3, 3))
-  .toEqual(['fizz', '-2', '-1', 'fizzbuzz', '1', '2', 'fizzbuzz'])
+fizzBuzz(10, 18) returns ['buzz', '11', 'fizz', '13', '14', 'fizzbuzz', '16', '17']
+fizzBuzz(-3, 3) returns ['fizz', '-2', '-1', 'fizzbuzz', '1', '2']
 ```
 
 ## Resources
