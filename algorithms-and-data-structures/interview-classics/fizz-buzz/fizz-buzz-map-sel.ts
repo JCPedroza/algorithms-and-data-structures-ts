@@ -9,7 +9,7 @@
 const fizzBuzz = (from: number, to: number): string[] =>
   [...Array(from >= to ? 0 : to - from).keys()]
     .map((idx) => {
-      let num = idx + from
+      const num = idx + from
       if (num % 15 === 0) return 'fizzbuzz'
       if (num % 3 === 0) return 'fizz'
       if (num % 5 === 0) return 'buzz'
@@ -18,7 +18,7 @@ const fizzBuzz = (from: number, to: number): string[] =>
 
 const solution = {
   fun: fizzBuzz,
-  id: "array map and string selection"
+  id: 'array map and string selection'
 }
 
 export default solution
