@@ -63,4 +63,4 @@ Everyone interacting in the AlgorithmsAndDataStructures project's codebases, iss
 [12]: https://badgen.net/github/dependabot/JCPedroza/algorithms-and-data-structures-ts?icon=dependabot
 [13]: https://github.com/dependabot/dependabot-core
 
-[30]: https://github.com/JCPedroza/algorithms-and-data-structures-ts/blob/master/CODE_OF_CONDUCT.md
+[30]: https://github.com/JCPedroza/algorithms-and-data-structures-ts/blob/main/CODE_OF_CONDUCT.md
