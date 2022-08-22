@@ -1,11 +1,12 @@
 # TypeScript Algorithms and Data Structures
 
 [![license MIT][6]][7]
+[![code style ts-standard][8]][9]
+[![test ts-jest][10]][11]
+
 [![linux build & tests][0]][1]
 [![windows build & tests][2]][3]
 [![linting][4]][5]
-[![code style ts-standard][8]][9]
-[![test ts-jest][10]][11]
 [![dependabot status][12]][13]
 
 Algorithms and data structures implemented in TypeScript.
