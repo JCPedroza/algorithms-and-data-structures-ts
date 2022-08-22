@@ -11,6 +11,9 @@ Write a function, `fizzBuzz`, that returns an array of strings of the given
 sequence where `from` is inclusive and `to` is exclusive, and where each number is
 replaced according to the Fizz Buzz rules.
 
+Return an empty array for incongruent ranges (ranges where `from` is greater than or
+equal to `to`).
+
 ## Function Signature
 
 ```typescript
@@ -22,6 +25,8 @@ function fizzBuzz (from: number, to: number): string[]
 ```typescript
 fizzBuzz(10, 18) returns ['buzz', '11', 'fizz', '13', '14', 'fizzbuzz', '16', '17']
 fizzBuzz(-3, 3) returns ['fizz', '-2', '-1', 'fizzbuzz', '1', '2']
+fizzBuzz(2, -10) returns []
+fizzBuzz(4, 4) returns []
 ```
 
 ## Resources
