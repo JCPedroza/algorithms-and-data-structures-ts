@@ -8,7 +8,7 @@ class Queue<T> implements QueueADT<T> {
   }
 
   enqueue (item: T): number {
-    return this.items.unshift(item)
+    return this.items.push(item)
   }
 
   dequeue (): T | undefined {
