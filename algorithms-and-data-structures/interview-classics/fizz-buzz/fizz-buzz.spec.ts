@@ -6,7 +6,7 @@ const testSubjects = [
   fizzBuzzMapSet
 ]
 
-for (const {fun, id} of testSubjects) {
+for (const { fun, id } of testSubjects) {
   describe(`Fizz Buzz solution "${id}"`, () => {
     it('builds an array that contains a fizz buzz sequence', () => {
       expect(fun(10, 18))
@@ -14,7 +14,6 @@ for (const {fun, id} of testSubjects) {
 
       expect(fun(-3, 3))
         .toEqual(['fizz', '-2', '-1', 'fizzbuzz', '1', '2'])
-
 
       expect(fun(15, 16)).toEqual(['fizzbuzz'])
     })
