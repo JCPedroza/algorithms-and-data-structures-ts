@@ -15,7 +15,7 @@ const fizzBuzz = (from: number, to: number): string[] => {
     if (num % 3 === 0) fbStr += 'fizz'
     if (num % 5 === 0) fbStr += 'buzz'
 
-    fbs.push(fbStr || String(num))
+    fbs.push(fbStr.length === 0 ? String(num) : fbStr)
   }
 
   return fbs
