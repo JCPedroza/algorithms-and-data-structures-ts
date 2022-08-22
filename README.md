@@ -57,6 +57,15 @@ You can see the full contribution guidelines, workflows, and examples in the
 This repository is available as open source under the terms of the
 [MIT License][7].
 
+## Similar Resources
+
+You can find similar repositories for other languages in the following links:
+
+- [Racket][104]
+- [Python][101]
+- [SML][103]
+- [Other languages][100]
+
 ---
 
 [0]: https://github.com/JCPedroza/algorithms-and-data-structures-ts/actions/workflows/linux.yml/badge.svg
@@ -91,3 +100,8 @@ This repository is available as open source under the terms of the
 [59]: https://github.com/JCPedroza/algorithms-and-data-structures-ts/pulls
 [60]: https://img.shields.io/github/issues-pr-closed-raw/JCPedroza/algorithms-and-data-structures-ts
 [61]: https://github.com/JCPedroza/algorithms-and-data-structures-ts/pulls
+
+[100]: https://github.com/JCPedroza/algorithms-and-data-structures
+[101]: https://github.com/JCPedroza/algorithms-and-data-structures-py
+[103]: https://github.com/JCPedroza/algorithms-and-data-structures-sml
+[104]: https://github.com/JCPedroza/algorithms-and-data-structures-rkt
