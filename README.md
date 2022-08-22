@@ -31,10 +31,12 @@ npm run build      # Transpile to JavaScript
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/JCpedroza/algorithms-and-data-structures-ts.
+Bug reports and pull requests are welcome on the [GitHub repository][32].
+
 This project is intended to be a safe, welcoming space for collaboration, and
-contributors are expected to adhere to the
-[code of conduct][30].
+contributors are expected to adhere to the [code of conduct][30].
+
+You can see the full contribution guidelines [here][31].
 
 ## License
 
@@ -65,3 +67,5 @@ Everyone interacting in the AlgorithmsAndDataStructures project's codebases, iss
 [13]: https://github.com/dependabot/dependabot-core
 
 [30]: https://github.com/JCPedroza/algorithms-and-data-structures-ts/blob/main/CODE_OF_CONDUCT.md
+[31]: https://github.com/JCPedroza/algorithms-and-data-structures-ts/blob/main/CONTRIBUTING.md
+[32]: https://github.com/JCPedroza/algorithms-and-data-structures-ts
