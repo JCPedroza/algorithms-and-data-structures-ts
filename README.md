@@ -40,8 +40,9 @@ npm run build      # Transpile to JavaScript
 
 Bug reports and pull requests are welcome on the [GitHub repository][32].
 
-This project is intended to be a safe, welcoming space for collaboration, and
-contributors are expected to adhere to the [code of conduct][30].
+This project is intended to be a safe, welcoming space for collaboration. Everyone
+interacting in this project's codebases, issue trackers, chat rooms and mailing lists
+is expected to follow the [code of conduct][30].
 
 You can see the full contribution guidelines [here][31].
 
@@ -49,12 +50,6 @@ You can see the full contribution guidelines [here][31].
 
 This repository is available as open source under the terms of the
 [MIT License][7].
-
-## Code of Conduct
-
-Everyone interacting in the AlgorithmsAndDataStructures project's codebases,
-issue trackers, chat rooms and mailing lists is expected to follow the
-[code of conduct][30].
 
 ---
 
