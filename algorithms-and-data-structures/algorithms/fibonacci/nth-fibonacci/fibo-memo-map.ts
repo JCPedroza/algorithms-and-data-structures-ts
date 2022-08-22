@@ -4,6 +4,8 @@
  * @returns The Fibonacci number located at the specified index.
  */
 const fibo = (index: number): number => {
+  if (index < 0) return 0
+
   const results = new Map<number, number>([[0, 0], [1, 1]])
 
   const loop = (idx: number): number => {

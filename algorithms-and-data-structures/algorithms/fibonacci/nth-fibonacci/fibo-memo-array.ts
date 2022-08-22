@@ -4,11 +4,12 @@
  * @returns The Fibonacci number located at the specified index.
  */
 const fibo = (index: number): number => {
+  if (index < 0) return 0
+
   const results = [0, 1]
 
   const loop = (idx: number): number => {
     if (results[idx] !== undefined) return results[idx]
-
     results[idx] = loop(idx - 1) + loop(idx - 2)
     return results[idx]
   }

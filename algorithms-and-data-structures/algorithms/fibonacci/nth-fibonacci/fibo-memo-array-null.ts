@@ -5,6 +5,8 @@
  * @returns The Fibonacci number located at the specified index.
  */
 const fibo = (index: number): number => {
+  if (index < 0) return 0
+
   const results = [0, 1]
 
   const loop = (idx: number): number => {
