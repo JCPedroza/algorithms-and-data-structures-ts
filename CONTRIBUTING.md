@@ -14,6 +14,8 @@ Include at least one example in one or multiple of these forms:
   - Expression that evaluates to true
   - Jest expect notation
 
+Use whatever is more concise and easily understood.
+
 Two to five examples should be ok, depending on the case. Examples should complement
 the explanations. Use the examples to illustrate edge cases, and basic expected inputs
 and outputs.
