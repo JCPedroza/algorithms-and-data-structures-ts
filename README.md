@@ -4,11 +4,12 @@
 [![style ts-standard][8]][9]
 [![test ts-jest][10]][11]
 [![dependabot status][12]][13]
+[![linting][4]][5]
 
 [![linux build & tests][0]][1]
 [![windows build & tests][2]][3]
 [![macintosh build & tests][14]][15]
-[![linting][4]][5]
+
 
 This repository contains
 
