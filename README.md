@@ -61,9 +61,9 @@ this repository.
 
 ## Similar Resources
 
-- [Racket][104]
-- [Python][101]
 - [SML][103]
+- [Python][101]
+- [Racket][104]
 - [Other languages][100]
 
 ---
