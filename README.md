@@ -1,5 +1,9 @@
 # TypeScript Algorithms and Data Structures
 
+[![typescript][16]][17]
+[![node][18]][19]
+[![npm][20]][21]
+
 [![license MIT][6]][7]
 [![style ts-standard][8]][9]
 [![test ts-jest][10]][11]
@@ -89,6 +93,12 @@ this repository.
 [13]: https://github.com/JCPedroza/algorithms-and-data-structures-ts/blob/main/.github/dependabot.yml
 [14]: https://github.com/JCPedroza/algorithms-and-data-structures-ts/actions/workflows/macintosh.yml/badge.svg
 [15]: https://github.com/JCPedroza/algorithms-and-data-structures-ts/actions/workflows/macintosh.yml
+[16]: https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white
+[17]: https://github.com/microsoft/TypeScript
+[18]: https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white
+[19]: https://github.com/nodejs/node
+[20]: https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white
+[21]: https://github.com/npm/cli
 
 [30]: https://github.com/JCPedroza/algorithms-and-data-structures-ts/blob/main/CODE_OF_CONDUCT.md
 [31]: https://github.com/JCPedroza/algorithms-and-data-structures-ts/blob/main/CONTRIBUTING.md
