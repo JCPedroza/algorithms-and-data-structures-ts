@@ -32,11 +32,12 @@ npm install
 ### Scripts
 
 ```bash
-npm test          # Run changed unit tests
-npm run test-unit # Run all unit tests
-npm run test-all  # Run all tests (unit and lint)
-npm run build     # Transpile to JavaScript
-npm run           # Show all scripts
+npm test              # Run changed unit tests
+npm run test-coverage # Run unit tests and generate coverage report
+npm run test-unit     # Run all unit tests
+npm run test-all      # Run all tests (unit and lint)
+npm run build         # Transpile to JavaScript
+npm run               # Show all scripts
 ```
 
 ## Contributing
