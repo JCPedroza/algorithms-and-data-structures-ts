@@ -1,18 +1,18 @@
 # TypeScript Algorithms and Data Structures
 
-[![typescript][16]][17]
-[![node][18]][19]
-[![npm][20]][21]
-
-[![license MIT][6]][7]
-[![style ts-standard][8]][9]
-[![test ts-jest][10]][11]
-[![dependabot status][12]][13]
-[![linting][4]][5]
-
 [![linux build & tests][0]][1]
 [![windows build & tests][2]][3]
 [![macintosh build & tests][14]][15]
+
+[![typescript][16]][17]
+[![node][18]][19]
+[![npm][20]][21]
+[![ts-jest][10]][11]
+[![dependabot][12]][13]
+
+[![license MIT][6]][7]
+[![ts-standard][8]][9]
+[![linting][4]][5]
 
 Algorithms and data structures implemented in TypeScript. Here you'll find:
 
@@ -86,10 +86,10 @@ this repository.
 [7]: https://opensource.org/licenses/MIT
 [8]: https://badgen.net/badge/style/ts-standard/blue?icon=typescript
 [9]: https://github.com/standard/ts-standard
-[10]: https://badgen.net/badge/test/ts-jest/blue?icon=typescript
+[10]: https://img.shields.io/badge/-jest-%23C21325?style=for-the-badge&logo=jest&logoColor=white
 [10]: https://img.shields.io/badge/test-ts--jest-blue
 [11]: https://github.com/kulshekhar/ts-jest
-[12]: https://badgen.net/github/dependabot/JCPedroza/algorithms-and-data-structures-ts?icon=dependabot
+[12]: https://img.shields.io/badge/dependabot-025E8C?style=for-the-badge&logo=dependabot&logoColor=white
 [13]: https://github.com/JCPedroza/algorithms-and-data-structures-ts/blob/main/.github/dependabot.yml
 [14]: https://github.com/JCPedroza/algorithms-and-data-structures-ts/actions/workflows/macintosh.yml/badge.svg
 [15]: https://github.com/JCPedroza/algorithms-and-data-structures-ts/actions/workflows/macintosh.yml
