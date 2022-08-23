@@ -34,8 +34,9 @@ npm install
 ```bash
 npm test              # Run changed unit tests
 npm run test-coverage # Run unit tests and generate coverage report
-npm run test-unit     # Run all unit tests
-npm run test-all      # Run all tests (unit and lint)
+npm run test-unit     # Run unit tests
+npm run test-all      # Run unit and lint tests
+npm run fix-style     # Run linter and format style errors
 npm run build         # Transpile to JavaScript
 npm run               # Show all scripts
 ```
