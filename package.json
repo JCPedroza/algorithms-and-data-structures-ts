@@ -24,9 +24,10 @@
   },
   "keywords": [
     "algorithm",
-    "data",
-    "structure",
-    "typescript"
+    "data-structure",
+    "typescript",
+    "project-euler",
+    "interview"
   ],
   "author": "JCPedroza",
   "license": "MIT",
