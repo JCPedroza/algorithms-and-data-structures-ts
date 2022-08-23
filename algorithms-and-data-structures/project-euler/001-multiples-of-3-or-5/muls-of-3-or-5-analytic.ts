@@ -1,3 +1,10 @@
+const { trunc } = Math
+
+const sumDivisibleBy = (limit: number, n: number): number => {
+  const limitByN = trunc((limit - 1) / n)
+  return trunc(n + (limitByN * (limitByN + 1)) / 2)
+}
+
 /**
  * Compute the sum of the natural multiples of 3 or 5 that are smaller than a limit.
  * Uses: Analytic approach.
@@ -6,7 +13,11 @@
  * @return Sum of the natural multiples of 3 or 5 that are smaller than the limit.
  */
 const mulsOf3Or5 = (limit: number): number => {
-  return 0
+  if (limit < 0) return 0
+
+  return sumDivisibleBy(limit, 3) +
+  sumDivisibleBy(limit, 5) -
+  sumDivisibleBy(limit, 15)
 }
 
 const solution = {
