@@ -1,8 +1,9 @@
 const { trunc } = Math
 
+// Sum of natural multiples of n that are smaller than a limit.
 const sumDivisibleBy = (limit: number, n: number): number => {
   const limitByN = trunc((limit - 1) / n)
-  return trunc(n + (limitByN * (limitByN + 1)) / 2)
+  return trunc(n * (limitByN * (limitByN + 1)) / 2)
 }
 
 /**
