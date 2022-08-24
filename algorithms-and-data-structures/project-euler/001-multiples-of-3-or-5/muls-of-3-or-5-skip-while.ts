@@ -1,6 +1,6 @@
 /**
  * Compute the sum of the natural multiples of 3 or 5 that are smaller than a limit.
- * Uses: Skip trial division with accumulating for loop.
+ * Uses: Skip trial division with a while loop.
  * Complexity: time O(n), space O(1).
  * @param limit Exclusive limit of the series.
  * @return Sum of the natural multiples of 3 or 5 that are smaller than the limit.
@@ -27,7 +27,7 @@ const mulsOf3Or5 = (limit: number): number => {
 
 const solution = {
   fun: mulsOf3Or5,
-  id: 'skip trial division with accumulating while loop'
+  id: 'skip trial division with while loop'
 }
 
 export default solution

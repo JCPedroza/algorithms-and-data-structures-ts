@@ -1,6 +1,6 @@
 /**
  * Compute the sum of the natural multiples of 3 or 5 that are smaller than a limit.
- * Uses: Brute force trial division with accumulating for loop.
+ * Uses: Brute force trial division with  for loop.
  * Complexity: time O(n), space O(1).
  * @param limit Exclusive limit of the series.
  * @return Sum of the natural multiples of 3 or 5 that are smaller than the limit.
@@ -19,7 +19,7 @@ const mulsOf3Or5 = (limit: number): number => {
 
 const solution = {
   fun: mulsOf3Or5,
-  id: 'brute force trial division with accumulating for loop'
+  id: 'brute force trial division with for loop'
 }
 
 export default solution
