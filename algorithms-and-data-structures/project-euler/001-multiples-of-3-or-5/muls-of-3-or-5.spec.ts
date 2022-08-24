@@ -12,7 +12,7 @@ const testSubjects = [
 
 for (const { fun, id } of testSubjects) {
   describe(`Project Euler 001 solution "${id}"`, () => {
-    it('computes sum of the natural multiples of 3 or 5 below the limit', () => {
+    it('computes sum of positive multiples of 3 or 5 below the limit', () => {
       expect(fun(-1)).toBe(0)
       expect(fun(0)).toBe(0)
       expect(fun(3)).toBe(0)
