@@ -1,7 +1,7 @@
 import mulsOfBruteFor from './muls-of-3-or-5-brute-for'
 import mulsOfSkipWhile from './muls-of-3-or-5-skip-while'
 import mulsOfAnalytic from './muls-of-3-or-5-analytic'
-import mulsOfReduce from './muls-of-3-or-5-reduce'
+import mulsOfReduce from './muls-of-3-or-5-brute-reduce'
 
 const testSubjects = [
   mulsOfSkipWhile,
