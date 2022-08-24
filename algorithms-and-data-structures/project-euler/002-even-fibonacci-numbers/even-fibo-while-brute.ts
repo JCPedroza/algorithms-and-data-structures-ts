@@ -1,5 +1,6 @@
 /**
  * Compute sum of even Fibonacci numbers that don't exceed the given limit.
+ * Uses brute force trial division with a while loop.
  * Complexity: time O(n), space O(1).
  * @param limit Max inclusive value of the Fibonacci sequence.
  * @returns Sum of even Fibonacci numbers that don't exceed the given limit.
