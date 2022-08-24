@@ -1,6 +1,6 @@
 /**
  * Compute the sum of the natural multiples of 3 or 5 that are smaller than a limit.
- * Uses: Brute force trial division with filter and reduce.
+ * Uses brute force trial division with filter and reduce.
  * Complexity: time O(n) space O(n).
  * @param limit Exclusive limit of the series.
  * @return Sum of the natural multiples of 3 or 5 that are smaller than the limit.

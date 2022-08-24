@@ -1,6 +1,6 @@
 /**
  * Compute the sum of the natural multiples of 3 or 5 that are smaller than a limit.
- * Uses: Brute force trial division with  for loop.
+ * Uses brute force trial division with  for loop.
  * Complexity: time O(n), space O(1).
  * @param limit Exclusive limit of the series.
  * @return Sum of the natural multiples of 3 or 5 that are smaller than the limit.
