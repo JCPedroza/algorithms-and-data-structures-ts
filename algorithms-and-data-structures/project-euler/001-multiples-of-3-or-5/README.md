@@ -3,7 +3,7 @@
 If we list all the natural numbers below 10 that are multiples of 3 or 5, we
 get 3, 5, 6 and 9. The sum of these multiples is 23.
 
-## Solve Project Euler 001 - Multiples of 3 or 5
+## Solve Project Euler 001
 
 Write a function, `mulsOf3Or5`, that takes a number, `limit` as an argument, and returns
 the sum of all the positive multiples of 3 or 5 that are also less than `limit`
