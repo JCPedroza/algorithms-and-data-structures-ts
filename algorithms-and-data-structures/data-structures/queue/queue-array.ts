@@ -13,7 +13,7 @@ class Queue<T> implements QueueADT<T> {
 
   dequeue (): T | undefined {
     if (this.isEmpty()) {
-      throw new Error('Cannot dequeue an empty queue')
+      throw new Error('Cannot dequeue empty queue')
     }
 
     return this.items.shift()
