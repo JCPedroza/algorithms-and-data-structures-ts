@@ -1,7 +1,9 @@
 import evenFiboForBrute from './even-fibo-while-brute'
+import evenFiboWhileNoTrial from './even-fibo-while-no-trial'
 
 const testSubjects = [
-  evenFiboForBrute
+  evenFiboForBrute,
+  evenFiboWhileNoTrial
 ]
 
 testSubjects.forEach((subject) => {
