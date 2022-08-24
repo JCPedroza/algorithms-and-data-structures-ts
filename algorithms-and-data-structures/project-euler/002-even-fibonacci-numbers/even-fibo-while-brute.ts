@@ -1,9 +1,10 @@
 /**
- * Compute sum of even Fibonacci numbers that don't exceed a limit.
+ * Compute sum of even Fibonacci numbers that don't exceed the given limit.
+ * Complexity: time O(n), space O(1).
  * @param limit Max inclusive value of the Fibonacci sequence.
- * @returns The sum of even Fibonacci numbers that don't exceed a limit.
+ * @returns Sum of even Fibonacci numbers that don't exceed the given limit.
  */
-const fiboEvenSum = (limit: number): number => {
+const evenFiboSum = (limit: number): number => {
   let current = 0
   let next = 1
   let sum = 0
@@ -17,8 +18,8 @@ const fiboEvenSum = (limit: number): number => {
 }
 
 const solution = {
-  fun: fiboEvenSum,
-  id: 'brute force trial division with accumulating for loop'
+  fun: evenFiboSum,
+  id: 'brute force trial division with while loop'
 }
 
 export default solution
