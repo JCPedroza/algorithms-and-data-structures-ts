@@ -8,12 +8,12 @@ for (const Queue of testSubjects) {
   describe(`Queue structure "${Queue.id}"`, () => {
     it('performs basic queue operations', () => {
       const queue = new Queue<number>()
-      expect(queue.peek()).toEqual(undefined)
+      expect(() => { queue.peek() }).toThrow()
       expect(queue.length()).toBe(0)
       expect(queue.isEmpty()).toBe(true)
 
-      expect(queue.dequeue()).toBe(undefined)
-      expect(queue.peek()).toEqual(undefined)
+      expect(() => { queue.dequeue() }).toThrow()
+      expect(() => { queue.peek() }).toThrow()
       expect(queue.length()).toBe(0)
       expect(queue.isEmpty()).toBe(true)
 
@@ -33,12 +33,12 @@ for (const Queue of testSubjects) {
       expect(queue.isEmpty()).toBe(false)
 
       expect(queue.dequeue()).toBe(4)
-      expect(queue.peek()).toEqual(undefined)
+      expect(() => { queue.peek() }).toThrow()
       expect(queue.length()).toBe(0)
       expect(queue.isEmpty()).toBe(true)
 
-      expect(queue.dequeue()).toBe(undefined)
-      expect(queue.peek()).toEqual(undefined)
+      expect(() => { queue.dequeue() }).toThrow()
+      expect(() => { queue.peek() }).toThrow()
       expect(queue.length()).toBe(0)
       expect(queue.isEmpty()).toBe(true)
     })
