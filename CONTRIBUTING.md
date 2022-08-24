@@ -32,7 +32,7 @@ double(1) is 1
 double(2) is 4
 ```
 
-##### Expressions that Evaluate to True.
+##### TypeScript Expressions that Evaluate to True
 
 ```typescript
 double(-1) === 1
