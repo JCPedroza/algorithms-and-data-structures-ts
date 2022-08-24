@@ -1,7 +1,7 @@
 /**
- * 
- * @param limit 
- * @returns 
+ * Compute sum of even Fibonacci numbers that don't exceed a limit.
+ * @param limit Max inclusive value of the Fibonacci sequence.
+ * @returns The sum of even Fibonacci numbers that don't exceed a limit.
  */
 const fiboEvenSum = (limit: number): number => {
   let current = 0
