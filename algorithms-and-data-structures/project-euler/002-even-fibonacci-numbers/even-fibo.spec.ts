@@ -1,9 +1,13 @@
-import evenFiboForBrute from './even-fibo-while-brute'
-import evenFiboWhileNoTrial from './even-fibo-while-no-trial'
+import evenFiboForBrute from './even-fibo-brute-while'
+import evenFiboWhileNoTrial from './even-fibo-no-trial-while'
+import envenFiboSkipTailCall from './even-fibo-skip-tail-call'
+import evenFiboSkipWhile from './even-fibo-skip-while'
 
 const testSubjects = [
   evenFiboForBrute,
-  evenFiboWhileNoTrial
+  evenFiboWhileNoTrial,
+  envenFiboSkipTailCall,
+  evenFiboSkipWhile
 ]
 
 testSubjects.forEach((subject) => {
