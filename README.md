@@ -50,7 +50,7 @@ npm run               # Show all scripts
 [![contributors][50]][51] [![commit activity][52]][53] [![issues][54]][55]
 [![issues closed][56]][57] [![issues pr][58]][59] [![issues pr closed][60]][61]
 
-Bug reports and pull requests are welcome on the [GitHub repository][32].
+Bug reports, pull requests, and code reviews are always welcome at the [GitHub repository][32].
 
 This project is intended to be a safe, welcoming space for collaboration. Everyone
 interacting in this project's codebases, issue trackers, chat rooms and mailing lists
