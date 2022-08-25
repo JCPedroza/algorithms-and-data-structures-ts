@@ -6,7 +6,7 @@
  * @param nums Array of numbers to be sorted.
  * @return Sorted array of numbers.
  */
- const bubbleSort = (nums: number[]): number[] => {
+const bubbleSort = (nums: number[]): number[] => {
   for (let loop = 0; loop < nums.length - 1; loop++) {
     for (let index = 0; index < nums.length - loop - 1; index++) {
       if (nums[index] > nums[index + 1]) {
