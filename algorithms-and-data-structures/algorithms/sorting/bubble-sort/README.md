@@ -12,10 +12,7 @@ are used by the sorting libraries built into programmin languages.
 ## Write the Bubble Sort Algorithm
 
 Write a function, `bubbleSort`, that takes an `array` of `number`s as input, and
-sorts the `array` in ascending order, and in-place (it modifies the argument array
-and returns a reference to that same array, it doesn't return a copy of the array).
-
-Use the Bubble Sort pattern.
+sorts the `array` in ascending order, using the Bubble Sort pattern described above.
 
 ## Function Signature
 
@@ -27,7 +24,7 @@ function bubbleSort (nums: number[]): number[]
 
 ```text
 bubbleSort([]) returns []
-bubbleSort([2]) returns []
+bubbleSort([2]) returns [2]
 bubbleSort([2, 1, 0, -1, -2]) returns [-2, -1, 0, 1, 2]
 bubbleSort([-2.3, 0.9, 0.3, -11.5, -0.7]) returns [-11.5, -2.3, -0.7, 0.3, 0.9]
 ```

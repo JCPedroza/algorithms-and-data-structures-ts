@@ -1,9 +1,11 @@
 import bubbleSortNaiveForWorse from './bubble-sort-naive-for-worse'
 import bubbleSortNaiveForBetter from './bubble-sort-naive-for-better'
+import bubbleSortOptimizedFor from './bubble-sort-optimized-for'
 
 const testSubjects = [
   bubbleSortNaiveForWorse,
-  bubbleSortNaiveForBetter
+  bubbleSortNaiveForBetter,
+  bubbleSortOptimizedFor
 ]
 
 for (const { fun, id } of testSubjects) {
@@ -20,11 +22,6 @@ for (const { fun, id } of testSubjects) {
 
       expect(fun([-2.3, 0.9, 0.3, -11.5, -0.7]))
         .toEqual([-11.5, -2.3, -0.7, 0.3, 0.9])
-    })
-
-    it('sorts in-place', () => {
-      const nums = [2, 1, 0]
-      expect(nums).toBe(nums)
     })
   })
 }
