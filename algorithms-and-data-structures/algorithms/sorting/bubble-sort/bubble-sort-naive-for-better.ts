@@ -4,7 +4,7 @@
  * traverses length - loop, instead of always traversing the complete length.
  * Complexity: time O(n²), space O(1).
  * @param nums Array of numbers to be sorted.
- * @return Sorted array of numbers.
+ * @return Sorted array of numbers (in-place).
  */
 const bubbleSort = (nums: number[]): number[] => {
   for (let loop = 0; loop < nums.length - 1; loop++) {
