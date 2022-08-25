@@ -1,11 +1,13 @@
 import bubbleSortNaiveForWorse from './bubble-sort-naive-for-worse'
 import bubbleSortNaiveForBetter from './bubble-sort-naive-for-better'
 import bubbleSortOptimizedFor from './bubble-sort-optimized-for'
+import bubbleSortNaiveRecursive from './bubble-sort-naive-recursive'
 
 const testSubjects = [
   bubbleSortNaiveForWorse,
   bubbleSortNaiveForBetter,
-  bubbleSortOptimizedFor
+  bubbleSortOptimizedFor,
+  bubbleSortNaiveRecursive
 ]
 
 for (const { fun, id } of testSubjects) {
