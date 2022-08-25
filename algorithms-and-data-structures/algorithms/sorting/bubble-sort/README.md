@@ -29,6 +29,32 @@ bubbleSort([2, 1, 0, -1, -2]) returns [-2, -1, 0, 1, 2]
 bubbleSort([-2.3, 0.9, 0.3, -11.5, -0.7]) returns [-11.5, -2.3, -0.7, 0.3, 0.9]
 ```
 
+## Categories
+
+- Polynomial (cuadratic) growth
+- Comparison sort
+- Stable
+- In-Place (some variants)
+
+## Time Complexity
+
+### Comparisons
+
+- Worst: `O(n²)`
+- Best: `O(n)`
+- Average: `O(n²)`
+
+### Swaps
+
+- Worst: `O(n²)`
+- Best: `O(1)`
+- Average: `O(n²)`
+
+## Space Complexity
+
+- Total: `O(n)`
+- Auxiliary: `O(1)`
+
 ## Resources
 
 - [Bubble Sort at Wikipedia][0]
