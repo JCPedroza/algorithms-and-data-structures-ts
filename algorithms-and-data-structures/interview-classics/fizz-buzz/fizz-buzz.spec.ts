@@ -1,12 +1,6 @@
-import fizzBuzzForCon from './fizz-buzz-for-con'
-import fizzBuzzMapSet from './fizz-buzz-map-sel'
+import solutions from './fizz-buzz.repo'
 
-const testSubjects = [
-  fizzBuzzForCon,
-  fizzBuzzMapSet
-]
-
-for (const { fun, id } of testSubjects) {
+for (const { fun, id } of solutions) {
   describe(`Fizz Buzz solution "${id}"`, () => {
     it('builds an array that contains a fizz buzz sequence', () => {
       expect(fun(10, 18))
