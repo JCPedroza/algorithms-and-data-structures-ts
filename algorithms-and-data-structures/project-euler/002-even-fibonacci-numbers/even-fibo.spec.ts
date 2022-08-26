@@ -1,16 +1,6 @@
-import evenFiboForBrute from './even-fibo-brute-while'
-import evenFiboWhileNoTrial from './even-fibo-no-trial-while'
-import envenFiboSkipTailCall from './even-fibo-skip-tail-call'
-import evenFiboSkipWhile from './even-fibo-skip-while'
+import implementations from './even-fibo.repo'
 
-const testSubjects = [
-  evenFiboForBrute,
-  evenFiboWhileNoTrial,
-  envenFiboSkipTailCall,
-  evenFiboSkipWhile
-]
-
-testSubjects.forEach((subject) => {
+implementations.forEach((subject) => {
   describe(`Project Euler 002 solution "${subject.id}"`, () => {
     it('computes sum of even Fibonacci numbers that do not exceed a limit', () => {
       expect(subject.fun(-1)).toBe(0)
