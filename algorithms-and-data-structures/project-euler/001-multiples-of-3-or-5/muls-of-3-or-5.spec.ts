@@ -1,6 +1,6 @@
-import implementations from './muls-of-3-or-5.repo'
+import solutions from './muls-of-3-or-5.repo'
 
-for (const { fun, id } of implementations) {
+for (const { fun, id } of solutions) {
   describe(`Project Euler 001 solution "${id}"`, () => {
     it('computes sum of positive multiples of 3 or 5 below the limit', () => {
       expect(fun(-1)).toBe(0)

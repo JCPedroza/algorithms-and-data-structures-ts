@@ -1,6 +1,6 @@
-import implementations from './even-fibo.repo'
+import solutions from './even-fibo.repo'
 
-implementations.forEach((subject) => {
+solutions.forEach((subject) => {
   describe(`Project Euler 002 solution "${subject.id}"`, () => {
     it('computes sum of even Fibonacci numbers that do not exceed a limit', () => {
       expect(subject.fun(-1)).toBe(0)

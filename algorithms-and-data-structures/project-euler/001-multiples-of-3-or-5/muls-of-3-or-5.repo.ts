@@ -5,7 +5,7 @@ import mulsOfBruteReduce from './muls-of-3-or-5-brute-reduce'
 import mulsOfBruteSimple from './muls-of-3-or-5-brute-simple'
 import mulsOfBruteTail from './muls-of-3-or-5-brute-tail'
 
-const implementations = [
+const solutions = [
   mulsOfSkipWhile,
   mulsOfBruteFor,
   mulsOfAnalytic,
@@ -14,4 +14,4 @@ const implementations = [
   mulsOfBruteTail
 ]
 
-export default implementations
+export default solutions

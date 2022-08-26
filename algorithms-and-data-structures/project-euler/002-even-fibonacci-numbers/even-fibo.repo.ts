@@ -3,11 +3,11 @@ import evenFiboWhileNoTrial from './even-fibo-no-trial-while'
 import envenFiboSkipTailCall from './even-fibo-skip-tail-call'
 import evenFiboSkipWhile from './even-fibo-skip-while'
 
-const implementations = [
+const solutions = [
   evenFiboForBrute,
   evenFiboWhileNoTrial,
   envenFiboSkipTailCall,
   evenFiboSkipWhile
 ]
 
-export default implementations
+export default solutions
