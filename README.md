@@ -17,8 +17,7 @@
 Algorithms and data structures implemented in TypeScript. Here you'll find:
 
 - Implementations of algorithms and data structures
-- Solutions for problems, prompts, and challenges
-- Solutions for some classic interview questions
+- Solutions for problems, prompts, challenges, and some popular interview questions
 
 ## Installation
 
@@ -33,16 +32,20 @@ npm install
 
 ## Usage
 
-### Scripts
+### Unit Testing
 
 ```bash
-npm test              # Run changed unit tests
-npm run test-coverage # Run unit tests and generate coverage report
-npm run test-unit     # Run unit tests
-npm run test-all      # Run unit and lint tests
+npm test              # Run unit tests that have changes
+npm run test-unit     # Run all unit tests
+npm run test-coverage # Run all unit tests and generate coverage report
+```
+
+### Other Scripts
+
+```bash
 npm run fix-style     # Run linter and format style errors
 npm run build         # Transpile to JavaScript
-npm run               # Show all scripts
+npm run               # Show all available scripts
 ```
 
 ## Contributing
