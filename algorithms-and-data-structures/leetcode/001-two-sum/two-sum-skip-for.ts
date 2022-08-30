@@ -1,7 +1,7 @@
 /**
  * Find the two indexes of the numbers in the array that add up to the target value.
  * Uses skipped indexes and for loops.
- * Complexity: time AO(n²) BO(1) WO(n²), space AO(1) TO(n)
+ * Complexity: time AO(n²) BO(1) WO(n²), space AO(1) TO(n).
  * @param nums Array of numbers.
  * @param target Target sum of two numbers in the array.
  * @return The two indexes of the numbers in the array that add up to the target value.
