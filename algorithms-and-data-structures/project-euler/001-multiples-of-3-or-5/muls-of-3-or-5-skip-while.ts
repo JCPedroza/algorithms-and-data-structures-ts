@@ -1,9 +1,9 @@
 /**
- * Compute the sum of the natural multiples of 3 or 5 that are smaller than a limit.
+ * Compute sum of multiples of 3 or 5 whose value is less than the limit.
  * Uses skip trial division with while loops.
  * Complexity: time O(n), space O(1).
  * @param limit Exclusive limit of the series.
- * @return Sum of the natural multiples of 3 or 5 that are smaller than the limit.
+ * @return Sum of multiples of 3 or 5 whose value is less than the limit.
  */
 const mulsOf3Or5 = (limit: number): number => {
   let mul3 = 3

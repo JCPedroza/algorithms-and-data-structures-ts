@@ -6,12 +6,12 @@ get 3, 5, 6 and 9. The sum of these multiples is 23.
 ## Solve Project Euler 001
 
 Write a function, `mulsOf3Or5`, that takes a number, `limit`, as an argument, and
-returns the sum of all the positive multiples of 3 or 5 that are also less than `limit`.
+returns the sum of all the multiples of 3 or 5 whose value is less than `limit`.
 
 ## Function Signature
 
 ```typescript
-function mulsOf3Or5(limit: number): number
+function mulsOf3Or5 (limit: number): number
 ```
 
 ## Examples
