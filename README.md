@@ -17,7 +17,7 @@
 Algorithms and data structures implemented in TypeScript. Here you'll find:
 
 - Implementations of algorithms and data structures
-- Solutions for problems, prompts, challenges, and some popular interview questions
+- Solutions for problems, prompts, challenges, and popular interview questions
 
 ## Installation
 
