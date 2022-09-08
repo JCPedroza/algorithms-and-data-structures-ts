@@ -16,7 +16,7 @@ interface QueueADT<T> {
   dequeue: () => T | undefined
 
   /**
-   * Get item from the front of the queue, without remocving it.
+   * Get item from the front of the queue, without removing it.
    * @return Item at the front of the queue.
    */
   peek: () => T | undefined
