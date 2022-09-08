@@ -16,8 +16,7 @@ const twoSum = (target: number, nums: number[]): number[] => {
     }
   }
 
-  // No solution found.
-  return [-1, -1]
+  return [-1, -1] // No solution found
 }
 
 const solution = {

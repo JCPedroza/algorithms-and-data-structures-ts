@@ -33,7 +33,7 @@ const twoSumPivotFront = (pivot: number, nums: number[], target: number): number
  */
 const twoSum = (target: number, nums: number[]): number[] => {
   const loop = (pivot: number): number[] => {
-    if (pivot >= nums.length - 1) return [-1, -1]
+    if (pivot >= nums.length - 1) return [-1, -1] // No solution found
 
     const frontSum = twoSumPivotFront(pivot, nums, target)
     if (frontSum.length > 0) return frontSum
