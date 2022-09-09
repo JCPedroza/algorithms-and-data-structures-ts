@@ -1,6 +1,10 @@
 {
   "name": "algorithms-ts",
   "version": "0.0.1",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
   "description": "Algorithms and data structures implemented in TypeScript.",
   "main": "index.js",
   "scripts": {
@@ -23,11 +27,15 @@
     "url": "git+https://github.com/JCPedroza/algorithms-and-data-structures-ts.git"
   },
   "keywords": [
-    "algorithm",
-    "data-structure",
+    "algorithms",
+    "data-structures",
     "typescript",
     "project-euler",
-    "interview"
+    "interview",
+    "problems",
+    "prompts",
+    "leetcode",
+    "challenges"
   ],
   "author": "JCPedroza",
   "license": "MIT",
