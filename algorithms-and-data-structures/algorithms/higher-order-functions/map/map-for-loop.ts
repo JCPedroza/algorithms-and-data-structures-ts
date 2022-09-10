@@ -1,8 +1,8 @@
-const map = (mapper: (arg: any) => any, array: any[]): any[] => {
+const map = <T, U> (fun: (arg: T) => U, array: T[]): U[] => {
   const maps = []
 
   for (const item of array) {
-    maps.push(mapper(item))
+    maps.push(fun(item))
   }
 
   return maps
@@ -10,7 +10,7 @@ const map = (mapper: (arg: any) => any, array: any[]): any[] => {
 
 export const algorithm = {
   fun: map,
-  id: 'simple recursion'
+  id: 'for loop'
 }
 
 export default algorithm
