@@ -1,6 +1,7 @@
 /**
  * Check if a given string is a palindrome.
- * Uses a symmetric while loop.
+ * Uses a symmetric while loop (checks both sides of the string at the same time).
+ * Complexity: time AO(n) BO(1) WO(n), space AO(1) TO(n)
  * @param str String to be checked.
  * @returns True if the string is a palindrome, false otherwise.
  */

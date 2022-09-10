@@ -1,6 +1,7 @@
 /**
  * Check if a given string is a palindrome
  * Uses string and array methods.
+ * Complexity: time AO(n) BO(n) WO(n), space AO(n) TO(n)
  * @param str String to be checked.
  * @returns True if the string is a palindrome, false otherwise.
  */
