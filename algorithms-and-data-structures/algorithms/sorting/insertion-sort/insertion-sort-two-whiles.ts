@@ -2,14 +2,14 @@
  * Sorts a numeric array, implementing a version of the insertion sort algorithm,
  * using an imperative approach with nested loops and two inner while loops doing one
  * check each.
- * Complexity: time AO(n²) BO(n) WO(n²), space AO(1) TO(n)
+ * Complexity: time AO(n²) BO(n) WO(n²), space AO(1) TO(n).
  * @param nums Number array to be sorted.
  * @returns The array sorted in-place.
  */
- const insertionSort = (nums: number[]): number[] => {
+const insertionSort = (nums: number[]): number[] => {
   for (let pivot = 1; pivot < nums.length; pivot++) {
     let index = pivot
-    let targetVal = nums[index]
+    const targetVal = nums[index]
 
     if (nums[0] > targetVal) {
       // Shift everything in the sorted portion to the right
