@@ -1,12 +1,6 @@
-import isPalindromeWhile from './is-palindrome-while'
-import isPalindromeMethods from './is-palindrome-methods'
+import solutions from './is-palindrome.repo'
 
-const testSubjects = [
-  isPalindromeWhile,
-  isPalindromeMethods
-]
-
-for (const { fun, id } of testSubjects) {
+for (const { fun, id } of solutions) {
   describe(`Is-palindrome algorithm "${id}"`, () => {
     it('returns true if the input string is a palindrome', () => {
       expect(fun('')).toBe(true)
