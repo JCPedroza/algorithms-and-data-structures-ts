@@ -1,5 +1,5 @@
 /**
- * Check if a given string is a palindrome.
+ * Check if a given string is a palindrome, ignoring non-alphanumecir characters.
  * Uses a symmetric while loop (checks both sides of the string at the same time).
  * Complexity: time AO(n) BO(1) WO(n), space AO(1) TO(n)
  * @param str String to be checked.
@@ -12,18 +12,22 @@ const isPalindrome = (str: string): boolean => {
 
   while (leftIndex < rightIndex) {
     if (notWord.test(str[leftIndex])) {
-      leftIndex++ // Left char is not alphanumeric
+      // Left char is not alphanumeric, ignore and go to next char
+      leftIndex++
     } else if (notWord.test(str[rightIndex])) {
-      rightIndex-- // Right char is not alphanumeric
+      // Right char is not alphanumeric, ignore and go to next char
+      rightIndex--
     } else if (str[leftIndex].toLowerCase() !== str[rightIndex].toLowerCase()) {
-      return false // Both characters are different
+      // Both characters are different, not a palindrome
+      return false
     } else {
-      // Both characters are equal
+      // Both characters are equal, go to next chars
       leftIndex++
       rightIndex--
     }
   }
 
+  // Left and right side are symmetric, input is a palindrome
   return true
 }
 
