@@ -11,8 +11,8 @@ for (const { fun, id } of solutions) {
       expect(fun('TeNEt')).toBe(true)
       expect(fun('!? R . a : ceca;r')).toBe(true)
       expect(fun('¿Ani. ta?  ..  LAva :l;a tina!')).toBe(true)
-      expect(`mUltiline!Example
-              elpmaXe=enilitluM`)
+      expect(fun(`mUltiline!Example
+                   elpmaXe=enilitluM`)).toBe(true)
     })
 
     it('returns false if the input string is not a palindrome', () => {
