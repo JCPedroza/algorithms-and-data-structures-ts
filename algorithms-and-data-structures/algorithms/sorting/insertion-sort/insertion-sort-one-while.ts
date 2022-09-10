@@ -1,6 +1,7 @@
 /**
  * Sorts a numeric array, implementing a version of the insertion sort algorithm,
- * using an imperative approach with nested loops and one while loop doing two checks.
+ * using an imperative approach with nested loops and one inner  while loop doing
+ * two checks.
  * Complexity: time AO(n²) BO(n) WO(n²), space AO(1) TO(n).
  * @param nums Number array to be sorted.
  * @returns The array sorted in-place.
