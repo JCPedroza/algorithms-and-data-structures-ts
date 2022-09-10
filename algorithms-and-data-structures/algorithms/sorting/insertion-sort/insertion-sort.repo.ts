@@ -1,7 +1,9 @@
-import insSortSwaps from './insertion-sort-swaps'
+import insSortOneWhile from './insertion-sort-one-while'
+import insSortTwoWhiles from './insertion-sort-two-whiles'
 
 const algorithms = [
-  insSortSwaps
+  insSortOneWhile,
+  insSortTwoWhiles
 ]
 
 export default algorithms
