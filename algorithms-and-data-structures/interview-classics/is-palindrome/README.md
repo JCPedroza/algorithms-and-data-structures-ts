@@ -26,7 +26,6 @@ isPalindrome('!? R . a :  ceca;r') returns true
 
 isPalindrome('racecars') returns false
 isPalindrome('race') returns false
-
 ```
 
 ## Resources
