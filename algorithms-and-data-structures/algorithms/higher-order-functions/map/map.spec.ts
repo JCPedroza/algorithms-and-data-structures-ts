@@ -8,6 +8,10 @@ algorithms.forEach(({ fun, id }) => {
 
       expect(fun((b: boolean) => !b, [true, false, true]))
         .toEqual([false, true, false])
+
+      expect(fun((s: string) =>
+        [s.toLocaleLowerCase(), s.toLocaleUpperCase()], ['a', 'B', 'c']))
+        .toEqual([['a', 'A'], ['b', 'B'], ['c', 'C']])
     })
   })
 })
