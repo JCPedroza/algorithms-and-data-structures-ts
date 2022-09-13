@@ -17,7 +17,7 @@ algorithms.forEach(({ fun, id }) => {
         .toEqual([['a', 'A'], ['b', 'B'], ['c', 'C']])
 
       expect(fun(
-        (ba: bigint[]) => [ba[1], ba[0]],
+        (ba: Array<bigint>) => [ba[1], ba[0]],
         [[10n, 20n], [30n, 40n], [50n, 60n]]))
         .toEqual([[20n, 10n], [40n, 30n], [60n, 50n]])
     })
