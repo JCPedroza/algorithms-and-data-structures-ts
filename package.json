@@ -44,13 +44,13 @@
   },
   "homepage": "https://github.com/JCPedroza/algorithms-and-data-structures-ts#readme",
   "devDependencies": {
-    "@types/jest": "^28.1.6",
+    "@types/jest": "^29.0.0",
     "cloc": "^2.10.0",
     "concurrently": "^7.3.0",
     "husky": "^8.0.1",
-    "jest": "^28.1.3",
+    "jest": "^29.0.0",
     "license-checker": "^25.0.1",
-    "ts-jest": "^28.0.8",
+    "ts-jest": "^29.0.0",
     "ts-standard": "^11.0.0",
     "typescript": "^4.8.2"
   }
