@@ -1,6 +1,6 @@
 /**
  * Builds an array with the results of applying the mapper function to each element of
- * the given array. Uses a for loop and array mutation.
+ * the given array. Uses simple recursion and array spread (no array mutation).
  * Complexity: time O(n), space O(n).
  * @param mapper Function to apply to each element of the given array.
  * @param array Array whose items will be mapped into an array of results.
@@ -8,18 +8,14 @@
  * of the array.
  */
 const map = <T, U> (mapper: (arg: T) => U, array: T[]): U[] => {
-  const maps = []
-
-  for (const item of array) {
-    maps.push(mapper(item))
-  }
-
-  return maps
+  if (array.length === 0) return []
+  const [head, ...tail] = array
+  return [mapper(head), ...map(mapper, tail)]
 }
 
 const algorithm = {
   fun: map,
-  id: 'for loop and array mutation'
+  id: 'simple recursion and array spread'
 }
 
 export default algorithm
