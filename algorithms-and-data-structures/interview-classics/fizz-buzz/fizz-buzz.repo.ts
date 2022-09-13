@@ -1,5 +1,5 @@
-import fizzBuzzForCon from './fizz-buzz-for-con'
-import fizzBuzzMapSet from './fizz-buzz-map-sel'
+import fizzBuzzForCon from './fizz-buzz-for-concat'
+import fizzBuzzMapSet from './fizz-buzz-map-select'
 
 const solutions = [
   fizzBuzzForCon,
