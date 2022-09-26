@@ -16,7 +16,6 @@ const findSubstr = (str: string): number => {
   let max = len
 
   while (right < limit) {
-
     // Increase right until repeat is found, adding chars and their indexes to the map
     while (!chars.has(str[right]) && right < limit) {
       chars.set(str[right], right)

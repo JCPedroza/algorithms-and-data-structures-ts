@@ -1,6 +1,6 @@
 import solutions from './long-substr.repo'
 
-for (const { fun, id} of solutions) {
+for (const { fun, id } of solutions) {
   describe(`Leet 3 "${id}"`, () => {
     it('finds length of largest substring without repeats', () => {
       expect(fun('')).toBe(0)
