@@ -18,7 +18,7 @@
     "test-all": "concurrently \"npm run test-style\" \"npm run test-unit\"",
     "test-coverage": "jest . --coverage",
     "fix-style": "ts-standard . --fix",
-    "pre-push": "concurrently --raw \"npm run test-style\" \"npm run test-unit\"",
+    "pre-push": "concurrently \"npm run test-style\" \"npm run test-unit\"",
     "prepare": "husky install"
   },
   "repository": {
@@ -34,14 +34,19 @@
     "problems",
     "prompts",
     "leetcode",
-    "challenges"
+    "challenges",
+    "education",
+    "profiling"
   ],
   "author": "JCPedroza",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/JCPedroza/algorithms-and-data-structures-ts/issues"
   },
-  "homepage": "https://github.com/JCPedroza/algorithms-and-data-structures-ts#readme",
+  "homepage": "https://github.com/JCPedroza/algorithms-and-data-structures-ts",
+  "dependencies": {
+    "chalk": "^5.0.1"
+  },
   "devDependencies": {
     "@types/jest": "^29.0.3",
     "cloc": "^2.10.0",
