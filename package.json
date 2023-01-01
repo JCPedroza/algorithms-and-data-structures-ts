@@ -48,7 +48,7 @@
     "chalk": "^5.2.0"
   },
   "devDependencies": {
-    "@types/jest": "^29.1.1",
+    "@types/jest": "^29.2.5",
     "cloc": "^2.10.0",
     "concurrently": "^7.6.0",
     "husky": "^8.0.2",
