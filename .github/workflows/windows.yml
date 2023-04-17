@@ -3,7 +3,7 @@
 # For more information see:
 # help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
 
-name: windows build & tests
+name: windows
 
 on:
   push:
