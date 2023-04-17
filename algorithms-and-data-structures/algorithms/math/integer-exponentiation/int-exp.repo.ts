@@ -1,7 +1,9 @@
 import intExpSimple from './int-exp-simple'
+import intExpNative from './int-exp-native'
 
 const algorithms = [
-  intExpSimple
+  intExpSimple,
+  intExpNative
 ]
 
 export default algorithms
