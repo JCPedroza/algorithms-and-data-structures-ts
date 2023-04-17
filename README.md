@@ -1,8 +1,9 @@
 # TypeScript Algorithms and Data Structures
 
-[![linux build & tests][0]][1]
-[![windows build & tests][2]][3]
-[![macintosh build & tests][14]][15]
+[![linux][0]][1]
+[![windows][2]][3]
+[![macintosh][14]][15]
+[![linting][4]][5]
 
 [![typescript][16]][17]
 [![node][18]][19]
@@ -11,7 +12,7 @@
 
 [![license MIT][6]][7]
 [![ts-standard][8]][9]
-[![linting][4]][5]
+
 
 Algorithms and data structures implemented in TypeScript. Here you'll find:
 
