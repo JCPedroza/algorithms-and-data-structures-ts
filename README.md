@@ -77,7 +77,7 @@ this repository.
 
 ---
 
-[![code size][92]][93] [![repo size][94]][95]
+[![repo size][94]][95]
 
 [0]: https://github.com/JCPedroza/algorithms-and-data-structures-ts/actions/workflows/linux.yml/badge.svg
 [1]: https://github.com/JCPedroza/algorithms-and-data-structures-ts/actions/workflows/linux.yml
@@ -120,8 +120,6 @@ this repository.
 [60]: https://img.shields.io/github/issues-pr-closed-raw/JCPedroza/algorithms-and-data-structures-ts
 [61]: https://github.com/JCPedroza/algorithms-and-data-structures-ts/pulls
 
-[92]: https://img.shields.io/github/languages/code-size/jcpedroza/algorithms-and-data-structures-ts
-[93]: https://img.shields.io/github/languages/code-size/jcpedroza/algorithms-and-data-structures-ts
 [94]: https://img.shields.io/github/repo-size/jcpedroza/algorithms-and-data-structures-ts
 [95]: https://img.shields.io/github/repo-size/jcpedroza/algorithms-and-data-structures-ts
 
