@@ -10,3 +10,11 @@ Write a function named `intExp` that:
 ```typescript
 function exp (base: number, pow: number): number
 ````
+
+## Resources
+
+- [Exponentiation at Wikipedia][0]
+- [Exponentiation by Squaring at Wikipedia][1]
+
+[0]: https://en.wikipedia.org/wiki/Exponentiation
+[1]: https://en.wikipedia.org/wiki/Exponentiation_by_squaring
