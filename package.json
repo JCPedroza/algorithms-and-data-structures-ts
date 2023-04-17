@@ -17,7 +17,7 @@
     "test-all": "concurrently \"npm run test-style\" \"npm run test-unit\"",
     "test-coverage": "jest . --coverage",
     "fix-style": "ts-standard . --fix",
-    "pre-push": "concurrently \"npm run test-style\" \"npm run test-unit\"",
+    "pre-push": "concurrently \"npm run fix-style\" \"npm run test-unit\"",
     "prepare": "husky install"
   },
   "repository": {
