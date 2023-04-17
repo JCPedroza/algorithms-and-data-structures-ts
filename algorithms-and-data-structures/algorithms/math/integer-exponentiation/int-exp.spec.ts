@@ -38,7 +38,7 @@ for (const { fun, id } of algorithms) {
       expect(fun(-3, -2)).toBeCloseTo(0.1111111111111111, floatDelta)
       expect(fun(-3, -3)).toBeCloseTo(-0.0370370370370370, floatDelta)
       expect(fun(-3, -4)).toBeCloseTo(0.0123456790123456, floatDelta)
-      expect(fun(-3, -21)).toBeCloseTo(-0.0000000000955990, floatDelta)      
+      expect(fun(-3, -21)).toBeCloseTo(-0.0000000000955990, floatDelta)
     })
 
     it('throws exception for non-integer arguments', () => {
