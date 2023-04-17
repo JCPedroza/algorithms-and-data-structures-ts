@@ -11,6 +11,7 @@ for (const { fun, id } of algorithms) {
       expect(fun(3, 2)).toBe(9)
       expect(fun(3, 3)).toBe(27)
       expect(fun(3, 4)).toBe(81)
+      expect(fun(3, 21)).toBe(10_460_353_203)
     })
 
     it('computes exponentiation with negative base', () => {
@@ -19,6 +20,7 @@ for (const { fun, id } of algorithms) {
       expect(fun(-3, 2)).toBe(9)
       expect(fun(-3, 3)).toBe(-27)
       expect(fun(-3, 4)).toBe(81)
+      expect(fun(-3, 21)).toBe(-10_460_353_203)
     })
 
     it('computes exponentiation with negative exponent', () => {
@@ -27,6 +29,7 @@ for (const { fun, id } of algorithms) {
       expect(fun(3, -2)).toBeCloseTo(0.1111111111111111, floatDelta)
       expect(fun(3, -3)).toBeCloseTo(0.0370370370370370, floatDelta)
       expect(fun(3, -4)).toBeCloseTo(0.0123456790123456, floatDelta)
+      expect(fun(3, -21)).toBeCloseTo(0.0000000000955990, floatDelta)
     })
 
     it('computes exponentiation with negative arguments', () => {
@@ -35,6 +38,7 @@ for (const { fun, id } of algorithms) {
       expect(fun(-3, -2)).toBeCloseTo(0.1111111111111111, floatDelta)
       expect(fun(-3, -3)).toBeCloseTo(-0.0370370370370370, floatDelta)
       expect(fun(-3, -4)).toBeCloseTo(0.0123456790123456, floatDelta)
+      expect(fun(-3, -21)).toBeCloseTo(-0.0000000000955990, floatDelta)      
     })
 
     it('throws exception for non-integer arguments', () => {
