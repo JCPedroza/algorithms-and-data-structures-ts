@@ -8,7 +8,6 @@
 [![node][18]][19]
 [![npm][20]][21]
 [![ts-jest][10]][11]
-[![dependabot][12]][13]
 
 [![license MIT][6]][7]
 [![ts-standard][8]][9]
