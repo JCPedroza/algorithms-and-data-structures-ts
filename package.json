@@ -11,13 +11,12 @@
     "test": "jest --onlyChanged",
     "test-unit": "jest .",
     "test-unit-ci": "jest . --ci",
-    "test-unit-changed": "npm test",
-    "test-style": "ts-standard .",
-    "test-node-workflow": "concurrently \"npm run test-style\" \"npm run test-unit-ci\"",
-    "test-all": "concurrently \"npm run test-style\" \"npm run test-unit\"",
+    "test-node-workflow": "concurrently \"npm run lint\" \"npm run test-unit-ci\"",
+    "test-all": "concurrently \"npm run lint\" \"npm run test-unit\"",
     "test-coverage": "jest . --coverage",
-    "fix-style": "ts-standard . --fix",
-    "pre-push": "concurrently \"npm run fix-style\" \"npm run test-unit\"",
+    "lint": "ts-standard .",
+    "lint-fix": "ts-standard . --fix",
+    "pre-push": "concurrently \"npm run lint\" \"npm run test-unit\"",
     "prepare": "husky install"
   },
   "repository": {
