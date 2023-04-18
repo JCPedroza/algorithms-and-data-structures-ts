@@ -1,9 +1,9 @@
 {
-  "name": "algorithms-ts",
+  "name": "algorithms-and-data-structures-ts",
   "version": "0.0.1",
   "engines": {
-    "node": ">=18.0.0",
-    "npm": ">=8.0.0"
+    "node": ">=20.0.0",
+    "npm": ">=9.6.0"
   },
   "description": "Algorithms and data structures implemented in TypeScript.",
   "scripts": {
